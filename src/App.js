@@ -7,7 +7,9 @@ const arrElements = names.map(item => <li>{item}</li>);
 function App() {
   return (
     <div className="App">
-      
+      <ul>
+        {arrElements}
+      </ul>
     </div>
   );
 }
