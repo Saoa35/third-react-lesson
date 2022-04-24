@@ -7,19 +7,19 @@ class StatefullComponentExample extends React.Component {
 
         this.state ={
             counts: 0,
-            list: [1, 2, 3, 4, 5],
-            str: 'some string in state',
-            obj: {
-                key:'key1'
-            },
-            isShow: true
+            // list: [1, 2, 3, 4, 5],
+            // str: 'some string in state',
+            // obj: {
+            //     key:'key1'
+            // },
+            // isShow: true
         };
         this.handleCkick = this.handleCkick.bind(this);
     }
 
     handleCkick() {
         this.setState({
-            counts: 10
+            counts: this.state.counts + 1
         });
     }
 
