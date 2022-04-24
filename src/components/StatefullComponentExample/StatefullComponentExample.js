@@ -13,7 +13,13 @@ class StatefullComponentExample extends React.Component {
                 key:'key1'
             },
             isShow: true
-        }
+        };
+    }
+
+    handleCkick() {
+        this.setState({
+            counts: 10
+        });
     }
 
     render() {
@@ -21,7 +27,7 @@ class StatefullComponentExample extends React.Component {
             <div>
                 <h2>StatefullComponentExample</h2>
 
-                <button>
+                <button onClick={this.handleCkick}>
                     Click me!
                 </button>
 
