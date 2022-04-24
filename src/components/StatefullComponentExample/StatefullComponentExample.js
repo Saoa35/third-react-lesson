@@ -1,4 +1,5 @@
 import React from "react";
+import v4 from "uuid/dist/v4";
 
 class StatefullComponentExample extends React.Component {
 
@@ -7,8 +8,8 @@ class StatefullComponentExample extends React.Component {
 
         this.state ={
             counts: 0,
-            // list: [1, 2, 3, 4, 5],
-            // str: 'some string in state',
+            list: [1, 2, 3, 4, 5],
+            str: 'some string in state',
             // obj: {
             //     key:'key1'
             // },
