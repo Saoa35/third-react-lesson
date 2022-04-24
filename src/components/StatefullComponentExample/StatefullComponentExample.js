@@ -14,6 +14,7 @@ class StatefullComponentExample extends React.Component {
             },
             isShow: true
         };
+        this.handleCkick = this.handleCkick.bind(this);
     }
 
     handleCkick() {
