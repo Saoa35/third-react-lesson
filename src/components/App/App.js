@@ -13,7 +13,7 @@ function App() {
 
 
 // const names = ['Alice', 'Kim', 'Julian', 'Alex', 'Tatiana'];
-// const arrElements = names.map(item, ind => <li key={ind}>{item}</li>);
+// const arrElements = names.map(item => <li key={v4()}>{item}</li>);
 
 // function App() {
 //   return (
